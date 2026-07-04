@@ -1,0 +1,107 @@
+.promo{
+    width: 100%;
+    height: 478px;
+    background: #0A0A0F;
+    padding: var(--padding-block);
+    .promo__cnt{
+        padding-right: 172px;
+        padding-left: 172px;
+        width: 100%;
+        height: 318px;
+        display: flex;
+        justify-content: space-between;
+        .promo__img{
+            margin-top: 27px;
+            width: 264px;
+            height: 264px;
+        }
+
+        .promo__items{
+              width: 464px;
+              height: 318px;
+              display: flex;
+              flex-direction: column;
+              .promo__items-title{
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 1.4px;
+                color: #f0f0f593;
+              }
+
+              .promo__items-name{
+                margin-top: 16px;
+                font-weight: 700;
+                font-style: bold;
+                font-size: 72px;
+                letter-spacing: 0;
+                color: #F0F0F5;
+              }
+
+              .promo__items-text{
+                margin-top: 16px;
+                font-weight: 400;
+                font-style: italic;
+                font-size: 24px;
+                letter-spacing: 0;
+                color: #6366F1;
+              }
+
+              .promo__items-subtitle{
+                margin-top: 26px;
+                font-weight: 400;
+                font-size: 17px;
+                letter-spacing: 0;
+                color: #f0f0f593;
+              }
+
+              .promo__items-btn{
+                margin-top: 41px;
+                    width: 320px;
+                    height: 50px;
+                    display: flex;
+                    gap: 16px;
+                    .btn1{
+                        width: 160px;
+                        height: 50px;
+                        border-radius: 9999px;
+                        background-color: #6366F1;
+                        border: none;
+                        font-weight: 500;
+                        color: #F0F0F5;
+                        font-size: 15px;
+                        cursor: pointer;
+                        transition: all 0.3s;
+                    }
+
+                    .btn1:hover{
+                      transform: scale(1.1);
+                    }
+
+                    .btn1:active{
+                      transform: scale(1);
+                    }
+
+                    .btn2{
+                        width: 142px;
+                        height: 50px;
+                        border-radius: 9999px;
+                        background: none;
+                        border: 1px solid #EC4899;
+                        color: #EC4899;
+                        font-size: 15px;
+                        font-weight: 500;
+                        cursor: pointer;
+                        transition: all 0.3s;
+                    }
+
+                    .btn2:hover{
+                      transform: scale(1.1);
+                    }
+
+                    .btn2:active{
+                      transform: scale(1);
+                    }
+              }
+        }
+    }
+}
